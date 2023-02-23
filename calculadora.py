@@ -4,14 +4,7 @@ def read_numbers():
     num2 = float(input('Enter second number: '))
     return num1, num2
 
-# Simple menu.
-print('Welcome to the calculator!')
-print('Please choose an operation:')
-print('    1. Addition')
-print('    2. Subtraction')
-print('    3. Multiplication')
-print('    4. Division')
-print('    5. Exit')
+print("Menu")
 
 # Main loop.
 while True:
